@@ -35,6 +35,18 @@ fun listPractice() {
     }
 
     stringList.forEach(::println)
+
+
+    fun test(input: ((Int, Int) -> String)) {
+
+    }
+
+    fun test1(input: Int,input1: Int): String {
+
+        return  ""
+    }
+
+    test(::test1)
 }
 
 /**
