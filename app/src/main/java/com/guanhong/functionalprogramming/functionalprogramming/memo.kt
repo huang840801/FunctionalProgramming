@@ -27,8 +27,6 @@ package com.guanhong.functionalprogramming.functionalprogramming
 //    println(it)
 //}
 //
-//test(::test1, ::test1)
-//
 //fun test(input: ((Int) -> String), input1: ((Int) -> String)) {
 //
 //    input.invoke(8)
@@ -39,6 +37,8 @@ package com.guanhong.functionalprogramming.functionalprogramming
 //    println(input)
 //    return input.toString()
 //}
+//test(::test1, ::test1)
+//
 //
 //list.forEach(::println)
 //

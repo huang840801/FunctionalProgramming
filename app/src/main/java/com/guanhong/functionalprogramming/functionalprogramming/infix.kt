@@ -7,8 +7,8 @@ package com.guanhong.functionalprogramming.functionalprogramming
  *
  *  3.should not have varargs or parameter with default values
  */
-infix fun LambdaPractice.andThenInfix(output: ((Int) -> String)): String {
-    return output(0)
+infix fun LambdaPractice.andThenInfix(input: ((Int) -> String)): String {
+    return input(0)
 }
 
 infix fun LambdaPractice.infixDemo(num: Int): LambdaPractice {
